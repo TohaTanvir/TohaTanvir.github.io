@@ -1,1 +1,94 @@
 
+/* Reset some default styles and ensure a consistent baseline */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+/* Section styles */
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Image styles */
+.logo img,
+.profile-picture img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer styles */
+footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.8rem;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}

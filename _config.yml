@@ -1,0 +1,9 @@
+# Site settings
+title: TohaTanvir
+description: "Bringing ideas to life, from front to back."
+baseurl: "" # Change this if your site is hosted in a subdirectory
+url: "https://TohaTanvir.github.io" # Replace with your GitHub Pages URL
+theme:  # Use a Jekyll theme or customize your own
+
+# Build settings
+markdown: 
